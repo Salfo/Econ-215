@@ -28,7 +28,7 @@ shinyUI(fluidPage(
       
       numericInput("Readings", 
                    label = "Insert your total grade for the 5 readings here. Assume a grade for reading 5", 
-                   value = 9, min = 0, max = 10),
+                   value = 9, min = 0, max = 25),
       
       numericInput("Attendance", 
                    label = "Insert your attendance grade here. take 1.5 off for every missed class (up to 7.5)", 
